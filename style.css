@@ -2,7 +2,15 @@ body {
     background-image: url('https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1055&q=80');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
+
+@media all and (max-width:480px)and(min-width:0px) {
+    body {      
+        /* width: 100; */
+       background-position: center;
+    }
+  }
 
 .container {
     max-width: 500px;
